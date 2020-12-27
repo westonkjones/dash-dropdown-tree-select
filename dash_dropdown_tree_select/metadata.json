@@ -1,0 +1,102 @@
+{
+  "src/lib/components/DashDropdownTreeSelect.react.js": {
+    "description": "",
+    "displayName": "DashDropdownTreeSelect",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Additional classname for container. The container renders with a default classname of react-dropdown-tree-select."
+      },
+      "clearSearchOnChange": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Clear the input search if a node has been selected/unselected.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "onChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback when the tree changes"
+      },
+      "onNodeToggle": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback for when a node is toggled"
+      },
+      "onAction": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback for when an action is performed"
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data to be rendered"
+      },
+      "keepTreeOnSearch": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Displays search results as a tree instead of flattened results",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "keepChildrenOnSearch": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Displays children of found nodes to allow searching for a parent node on then selecting any child node of the found node. \nDefaults to false",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "keepOpenOnSelect": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Keeps single selects open after selection. Defaults to false\nNOTE this works only in combination with simpleSelect or radioSelect",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

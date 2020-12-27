@@ -1,0 +1,7 @@
+include dash_dropdown_tree_select/dash_dropdown_tree_select.min.js
+include dash_dropdown_tree_select/dash_dropdown_tree_select.min.js.map
+include dash_dropdown_tree_select/metadata.json
+include dash_dropdown_tree_select/package-info.json
+include README.md
+include LICENSE
+include package.json
